@@ -1,5 +1,5 @@
 // User.js
-
+//Jai Ho
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
