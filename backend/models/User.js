@@ -1,5 +1,5 @@
 // User.js
-
+//Wow  This is User Schema
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
