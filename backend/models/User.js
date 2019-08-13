@@ -1,5 +1,5 @@
 // User.js
-//Jai Ho 2019
+//Jai Ho 2019 latest
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
