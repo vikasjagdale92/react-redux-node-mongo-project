@@ -6,7 +6,7 @@ const router = express.Router();
 const EmpProfile = require("../models/EmpProfile");
 
 router.post("/empAddData", (req, res) => {
-  console.log("req body --------> ", req.body.empFirstName);
+  // console.log("req body --------> ", req.body.empFirstName);
   EmpProfile.findOne({
     empMobileNum: req.body.empMobileNum
   }).then(emp => {

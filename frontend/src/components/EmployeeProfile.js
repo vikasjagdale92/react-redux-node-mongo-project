@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { browserHistory } from "react-router-dom";
 import { connect } from "react-redux";
 import { empProfile } from "../actions/authentication";
 import moment from "moment";
@@ -47,7 +46,6 @@ class EmployeeProfile extends Component {
       empDOJ: "",
       newData: true
     });
-    browserHistory.push("/some/path");
   };
 
   componentWillReceiveProps(nextProps) {
